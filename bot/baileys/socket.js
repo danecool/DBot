@@ -1,7 +1,7 @@
 import {getContentType } from '@whiskeysockets/baileys'
 import {tiposMensagem} from './mensagem.js'
 import {delayAleatorio} from '../lib/util.js'
-import api from '@victorsouzaleal/lbot-api-comandos'
+import api from '@danecool/lbot-api-comandos'
 
 // Gerais
 export const deletarMensagem = async(c, mensagem, mensagemCitada = false)=>{
